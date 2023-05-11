@@ -124,8 +124,6 @@ export const ModalComponent: FC<IModalProps> = ({ isOpen }: IModalProps) => {
 
 		setFilters({ film, species, height: heightRange, mass: weightRange });
 		applyFilters({ film, species, height: heightRange, mass: weightRange });
-
-		handleClose();
 	};
 
 	if (!isOpen) {
